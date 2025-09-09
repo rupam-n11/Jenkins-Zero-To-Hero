@@ -1,1 +1,3 @@
-sh 'mvn -version'
+def call(){
+  sh 'mvn -version'
+}
